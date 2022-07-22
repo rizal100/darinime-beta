@@ -1,0 +1,249 @@
+#wrapper {
+  width: 100%;
+}
+
+body {
+  height: 200px;
+  background-color: black;
+}
+
+.jumbotron {
+  padding: 6rem;
+
+  background-color: #c3daff;
+}
+
+#about {
+  color: #fff;
+}
+/* santai aja */
+
+/* akhiran santai aja */
+
+#bagian-bawah {
+  padding: 3rem;
+  text-align: center;
+  background-color: #c3daff;
+  color: black;
+}
+
+#my-work {
+}
+
+#emailHelp {
+  color: #fff;
+}
+
+.section {
+  padding-top: 6rem;
+}
+
+#credit {
+  text-align: center;
+  padding: 1rem;
+}
+
+/* box-1 */
+
+.anjay-box {
+  position: relative;
+  background-color: aqua;
+  border-radius: 10px;
+  height: 400px;
+  transform-style: preserve-3d;
+}
+
+.anjay-box::before {
+  content: 'NaN';
+  position: absolute;
+  color: black;
+  font-size: 6em;
+  font-weight: bold;
+  font-style: italic;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.anjay-box:hover::before {
+  opacity: 0.2;
+}
+
+.anjay-box::after {
+  content: 'NaN';
+  position: absolute;
+  color: black;
+  font-size: 4em;
+  font-weight: bold;
+  font-style: italic;
+  top: 225px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.anjay-box:hover::after {
+  opacity: 0.2;
+}
+
+.anjay-name {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 2em;
+  opacity: 0;
+  transform: translate3d(0, 0, 50px);
+  transition: 0.3s;
+}
+
+.anjay-box:hover .anjay-name {
+  top: 20px;
+  opacity: 1;
+}
+
+.anjay-detail-tombol {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate3d(-50%, 0, 100px);
+  opacity: 0;
+  transition: 1s;
+}
+
+.anjay-box:hover .anjay-detail-tombol {
+  bottom: 2em;
+  opacity: 1;
+}
+
+/* box-2 */
+
+.tentang-box {
+  position: relative;
+  background-color: aqua;
+  border-radius: 10px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.tentang-box::before {
+  content: 'Darinime';
+  position: absolute;
+  color: red;
+  font-size: 4em;
+  font-weight: bold;
+  font-style: italic;
+  top: 30px;
+  left: -100px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.tentang-box:hover::before {
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0.2;
+}
+
+.tentang-box::after {
+  content: 'Darinime';
+  position: absolute;
+  color: red;
+  font-size: 4em;
+  font-weight: bold;
+  font-style: italic;
+  top: 225px;
+  left: 512px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.tentang-box:hover::after {
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0.2;
+}
+
+.tentang-name {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  color: rgb(red, green, blue);
+  text-align: center;
+  font-size: 2em;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.tentang-box:hover .tentang-name {
+  top: 20px;
+  opacity: 1;
+}
+
+.tentang-detail-tombol {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.tentang-box:hover .tentang-detail-tombol {
+  opacity: 1;
+  bottom: 20px;
+}
+
+/* anime-box */
+
+/* matasatu-img */
+
+.matasatu-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -52%, 80px);
+  max-width: 200px;
+}
+
+.anjay-box:hover .matasatu-img {
+  transform: translate3d(-50%, -52%, 80px) scale(1.5);
+  transition: 1s;
+}
+
+/* biru-img */
+
+.biru-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -52%, 80px);
+  max-width: 200px;
+}
+
+.anjay-box:hover .biru-img {
+  transform: translate3d(-50%, -52%, 80px) scale(1.6);
+  transition: 1s;
+}
+
+/* tentang-img */
+
+.tentang-img {
+  position: absolute;
+  top: 46%;
+  transform: translate(-50%, -50%);
+  left: -200px;
+  max-width: 200px;
+}
+
+.tentang-box:hover .tentang-img {
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 1s;
+}
+
+/* terserah */
