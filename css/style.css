@@ -86,6 +86,7 @@
   color: red;
   text-decoration: none;
   z-index: 2;
+  cursor: pointer;
 }
 .page-link:focus {
   box-shadow: 0 0 0 0.2rem rgba(214, 50, 179, 0.25);
