@@ -55,4 +55,4 @@ function element(totalpages, page) {
   }
   ulteg.innerHTML = litag;
 }
-element(totalpages, 5);
+element(totalpages, 1);
