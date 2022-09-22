@@ -1,0 +1,10 @@
+.interaksi-tombol {
+  color: aliceblue;
+  background-color: rgb(183, 0, 255);
+  border-radius: 12px;
+  height: 40px;
+}
+
+.text-untuk-tombol-ganti-background {
+  color: aliceblue;
+}

@@ -1,4 +1,4 @@
-var backgroundrendom = document.querySelector('.button');
+var backgroundrendom = document.querySelector('.interaksi-tombol');
 
 backgroundrendom.addEventListener('click', function (e) {
   const r = Math.round(Math.random() * 255 + 1);
