@@ -4,11 +4,12 @@
   border-radius: 40px;
   background-color: #f1f1f1;
   margin: 15px;
+  max-width: 900px;
 }
 
 .card img {
   float: left;
-  margin: 0 20px 0 -4px;
+  margin: 0 10px 0 -1px;
   height: 80px;
   width: 80px;
   border-radius: 50%;
@@ -47,8 +48,10 @@
   top: 0;
   right: 30px;
   cursor: pointer;
+  opacity: 0.3;
 }
 
 .card:hover .close {
   color: red;
+  opacity: 1;
 }

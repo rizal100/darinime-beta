@@ -120,86 +120,6 @@ body {
   opacity: 1;
 }
 
-/* box-2 */
-
-.tentang-box {
-  position: relative;
-  background-color: aqua;
-  border-radius: 10px;
-  height: 400px;
-  overflow: hidden;
-}
-
-.tentang-box::before {
-  content: 'Darinime';
-  position: absolute;
-  color: red;
-  font-size: 4em;
-  font-weight: bold;
-  font-style: italic;
-  top: 30px;
-  left: -100px;
-  opacity: 0;
-  transition: 0.5s;
-}
-
-.tentang-box:hover::before {
-  left: 50%;
-  transform: translate(-50%, 0);
-  opacity: 0.2;
-}
-
-.tentang-box::after {
-  content: 'Darinime';
-  position: absolute;
-  color: red;
-  font-size: 4em;
-  font-weight: bold;
-  font-style: italic;
-  top: 225px;
-  left: 512px;
-  opacity: 0;
-  transition: 0.5s;
-}
-
-.tentang-box:hover::after {
-  left: 50%;
-  transform: translate(-50%, 0);
-  opacity: 0.2;
-}
-
-.tentang-name {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  color: rgb(red, green, blue);
-  text-align: center;
-  font-size: 2em;
-  opacity: 0;
-  transition: 0.3s;
-}
-
-.tentang-box:hover .tentang-name {
-  top: 20px;
-  opacity: 1;
-}
-
-.tentang-detail-tombol {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%, 0);
-  opacity: 0;
-  transition: 0.5s;
-}
-
-.tentang-box:hover .tentang-detail-tombol {
-  opacity: 1;
-  bottom: 20px;
-}
-
-/* anime-box */
-
 /* matasatu-img */
 
 .matasatu-img {
@@ -227,22 +147,6 @@ body {
 
 .anjay-box:hover .biru-img {
   transform: translate3d(-50%, -52%, 80px) scale(1.6);
-  transition: 1s;
-}
-
-/* tentang-img */
-
-.tentang-img {
-  position: absolute;
-  top: 46%;
-  transform: translate(-50%, -50%);
-  left: -200px;
-  max-width: 200px;
-}
-
-.tentang-box:hover .tentang-img {
-  left: 50%;
-  transform: translate(-50%, -50%);
   transition: 1s;
 }
 
