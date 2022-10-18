@@ -1,6 +1,6 @@
 // selecting required element
 const ulteg = document.querySelector('ul.pagination');
-let totalpages = 20;
+let totalpages = 100;
 
 function element(totalpages, page) {
   let litag = '';
